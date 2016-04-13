@@ -1,0 +1,325 @@
+
+/* Resets */
+
+body, h1, p, ul, li, a{
+
+	font-size: 16px;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: 'Montserrat';
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+/* End */
+
+/* Main Styles */
+
+.sideBar {
+
+	background-color: #318fec;
+	position:;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 120px;
+	z-index: 100;
+	
+
+}
+
+ul {
+
+	
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+li {
+
+	text-align: center;
+	height: 120px;
+
+
+}
+
+
+
+a {
+	
+	font-size: 0.8em;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	line-height: 120px;
+	text-align: center;
+	color: white;
+
+
+}
+
+
+.contentBoxes {
+
+	position: absolute;
+	left: 120px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+	overflow: hidden;
+
+}
+
+#box1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.landing {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.landing h1 {
+
+	font-size: 4em;
+	color: #318fec;
+
+}
+
+.landing p {
+
+	color: #cbcbcb;
+	width: 313px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 1.3em;
+
+}
+
+#box2 {
+
+	display: flex;
+	align-items: center;
+
+}
+
+#box2 h2 {
+
+	font-size: 1.8em;
+
+}
+
+#box2 p {
+
+	padding-top: 40px;
+
+}
+
+.aboutBox1 {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+	height: 280px;
+
+}
+
+.aboutBox1 h2 {
+
+	color: #318fec;
+
+}
+
+.aboutBox1 p {
+
+	width: 200px;
+	color: #cbcbcb;
+
+}
+
+.aboutBox2 {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 1;
+	height: 280px;
+
+}
+
+.aboutBox2 h2 {
+
+	color: #cbcbcb;
+	width: 60%;
+	text-align: center;
+
+}
+
+.aboutBox2 p {
+
+	color: #318fec;
+
+}
+
+#box3 {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#box3 h3 {
+
+	padding-top: 30px;
+	padding-bottom: 60px;
+	color: #318fec;
+	text-align: center;
+
+}
+
+#box3 p, h1, h2, h4 {
+
+	color: #cbcbcb;
+
+}
+
+.special {
+
+	color: #318fec;
+
+}
+
+.column1 {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	flex: 1;
+	height: 100%;
+
+}
+
+.wrap {
+
+	
+	width: 60%;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.column1 h3 {
+
+	
+
+}
+
+.column2 {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	flex: 1;
+	height: 100%;
+
+}
+
+.column2 p {
+
+	font-size: 1.3em;
+
+}
+
+.column2 h1 {
+
+	font-size: 2.5em;
+
+}
+
+
+.column3 {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	flex: 1;
+	height: 100%;
+	
+
+}
+
+.column3 p {
+
+	font-size: 0.8em;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.wrap2 {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	margin-bottom: 50px;
+
+}
+
+.circle {
+
+	
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: black;
+
+
+}
+
+#box4 {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+/* End */
+
+/* Inherited Styles */
+
+li.active {
+
+	background-color: white;
+	color: #318fec;
+	font-weight: 700;
+
+}
+
+.active a {
+
+	color: #318fec;
+	font-weight: 700;
+
+}
